@@ -1,0 +1,6 @@
+E:\SnakeGame2.0\App\Server\bin\Debug\Server.dll
+E:\SnakeGame2.0\App\Server\bin\Debug\Server.pdb
+E:\SnakeGame2.0\App\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\SnakeGame2.0\App\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+E:\SnakeGame2.0\App\Server\obj\Debug\Server.dll
+E:\SnakeGame2.0\App\Server\obj\Debug\Server.pdb

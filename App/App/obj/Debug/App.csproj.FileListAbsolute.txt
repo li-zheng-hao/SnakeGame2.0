@@ -1,0 +1,7 @@
+E:\SnakeGame2.0\App\App\bin\Debug\App.exe.config
+E:\SnakeGame2.0\App\App\bin\Debug\App.exe
+E:\SnakeGame2.0\App\App\bin\Debug\App.pdb
+E:\SnakeGame2.0\App\App\obj\Debug\App.csprojAssemblyReference.cache
+E:\SnakeGame2.0\App\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\SnakeGame2.0\App\App\obj\Debug\App.exe
+E:\SnakeGame2.0\App\App\obj\Debug\App.pdb
