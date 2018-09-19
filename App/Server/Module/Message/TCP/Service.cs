@@ -18,6 +18,9 @@ using System.Threading.Tasks;
 
 namespace Game
 {
+    /// <summary>
+    /// service类只负责接收客户端发来的连接，建立连接后所有session发来的数据和业务在上层NetWorkCenter类进行处理
+    /// </summary>
     public class Service
     {
        
@@ -54,7 +57,7 @@ namespace Game
         /// </summary>
         private int bufferSize = 1024;
         /// <summary>
-        /// 当前进入了游戏房间的玩家session
+        /// 当前连接了的session
         /// </summary>
         public List<Session> battleList = new List<Session>();
         /// <summary>

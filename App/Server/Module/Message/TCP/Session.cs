@@ -82,18 +82,14 @@ namespace Game
             Socket client = (Socket)e.UserToken;
             if (e.BytesTransferred > 0 && e.SocketError == SocketError.Success)
             {
-
-                //todo 这里处理数据 还没有解决粘包的问题
                 var data = new byte[e.BytesTransferred];
                 Array.Copy(e.Buffer, e.Offset, data, 0, data.Length);
                 msgQue.AddRange(data);
-                if (isResolveMsg)
+                if (isResolveMsg==false)
                 {
                     BeginReSolveMsg();
                     isResolveMsg = true;
                 }
-               
-
                 if (!client.ReceiveAsync(e))
                 {
                     ProcessReceive(e);
@@ -112,14 +108,24 @@ namespace Game
         /// </summary>
         private void BeginReSolveMsg()
         {
-            //s
-            //todo 这里处理消息
-            Message ms = MessageHelper.DeSerialize(data);
-
-            Console.Write("服务器接收到的消息为:  ");
-
-
-            readCallback.Invoke(this, ms);
+            lock (msgQue)
+            {
+                if (msgQue.Count > 2)
+                {
+                    byte[] length = msgQue.GetRange(0, 2).ToArray();
+                    var length2 = BitConverter.ToInt16(length, 0);
+                    //此处需要先读取数据
+                    if (msgQue.Count - 2 >= length2)
+                    {
+                        msgQue.RemoveRange(0, 2);
+                        var data = msgQue.GetRange(0, length2).ToArray();
+                        msgQue.RemoveRange(0, length2);
+                        Message ms = MessageHelper.DeSerialize(data);
+                        Console.Write("服务器接收到了消息");
+                        readCallback?.Invoke(this, ms);
+                    }
+                }
+            }
         }
         /// <summary>
         /// 关闭连接

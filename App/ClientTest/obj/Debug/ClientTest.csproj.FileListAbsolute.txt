@@ -1,0 +1,13 @@
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\ClientTest.exe.config
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\ClientTest.exe
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\ClientTest.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\Hotfix.dll
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\Server.dll
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\protobuf-net.dll
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\Hotfix.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\Server.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.csprojAssemblyReference.cache
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.csproj.CoreCompileInputs.cache
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.exe
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.pdb

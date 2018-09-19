@@ -1,50 +1,52 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="198ACC23-B0F0-4180-8621-1BB821F3A695/f:Program.cs" caret="228" fromTop="12" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:OpCode.cs" caret="500" fromTop="20" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:BufferManager.cs" caret="243" fromTop="8" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:SocketAsyncEventArgsPool.cs" caret="3180" fromTop="102" />
     <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:Class1.cs" caret="186" fromTop="12" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="680" fromTop="31" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:RegisterMessage.cs" caret="345" fromTop="16" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:LoginMessage.cs" caret="335" fromTop="15" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:IHandler.cs" caret="0" fromTop="0" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="970" fromTop="30" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="945" fromTop="38" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="456" fromTop="4" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3295" fromTop="21" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:MessageHelper.cs" caret="1533" fromTop="15" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:LoginMessage.cs" caret="0" fromTop="0" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:RegisterMessage.cs" caret="0" fromTop="0" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:OpCode.cs" caret="0" fromTop="0" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="913" fromTop="21" />
+    <File id="198ACC23-B0F0-4180-8621-1BB821F3A695/f:Program.cs" caret="315" fromTop="14" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="304" fromTop="14" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:MessageHelper.cs" caret="1384" fromTop="10" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:UpdatePosMessage.cs" caret="526" fromTop="23" />
+    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="238" fromTop="12" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="824" fromTop="1" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="875" fromTop="8" />
   </RecentFiles>
   <RecentEdits>
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="4404" fromTop="28" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="4197" fromTop="22" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="4950" fromTop="44" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="995" fromTop="34" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="241" fromTop="7" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="731" fromTop="26" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:IHandler.cs" caret="309" fromTop="20" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:IHandler.cs" caret="0" fromTop="0" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="401" fromTop="17" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5086" fromTop="31" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5437" fromTop="41" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="1554" fromTop="34" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5086" fromTop="26" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="1628" fromTop="26" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="956" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="513" fromTop="20" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="945" fromTop="37" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="4864" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="668" fromTop="26" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="799" fromTop="32" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="6569" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5130" fromTop="17" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5971" fromTop="21" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="6677" fromTop="25" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="5238" fromTop="17" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="6079" fromTop="21" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="533" fromTop="7" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="1108" fromTop="24" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="801" fromTop="30" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2646" fromTop="29" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2784" fromTop="14" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3415" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3223" fromTop="19" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="1399" fromTop="11" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="529" fromTop="6" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="727" fromTop="30" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="1005" fromTop="40" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="716" fromTop="31" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="546" fromTop="24" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3919" fromTop="35" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3919" fromTop="23" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:MessageHelper.cs" caret="1384" fromTop="24" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3919" fromTop="17" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3919" fromTop="22" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3210" fromTop="14" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3919" fromTop="30" />
+    <File id="198ACC23-B0F0-4180-8621-1BB821F3A695/f:Program.cs" caret="340" fromTop="15" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2609" fromTop="19" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:UpdatePosMessage.cs" caret="624" fromTop="25" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:UpdatePosMessage.cs" caret="612" fromTop="26" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:MessageType/f:UpdatePosMessage.cs" caret="526" fromTop="23" />
+    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="782" fromTop="20" />
+    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="322" fromTop="15" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3549" fromTop="14" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="3885" fromTop="20" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2401" fromTop="20" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2732" fromTop="28" />
   </RecentEdits>
 </RecentFiles>

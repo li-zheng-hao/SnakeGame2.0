@@ -22,17 +22,17 @@ namespace Game
         public int OpCode { get; set; }
 
         /// <summary>
-        /// 参数
+        /// 发送的数据类型，必须要带上ProContract
         /// </summary>
         [ProtoMember(2,DynamicType = true)]
         public object Value { get; set; }
 
         public Message()
         {
-
+              
         }
 
-        public Message(int opCode, int subCode, object value)
+        public Message(int opCode, object value)
         {
             this.OpCode = opCode;
             this.Value = value;

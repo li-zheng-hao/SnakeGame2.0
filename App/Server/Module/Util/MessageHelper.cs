@@ -32,7 +32,13 @@ namespace Game
                     ms.Position = 0;
                     //将流中的内容读取到二进制数组中
                     ms.Read(result, 0, result.Length);
-                    return result;
+                    short length = (short)result.Length;
+                    var datalength=BitConverter.GetBytes(length);
+                    byte[] c = new byte[datalength.Length + result.Length];
+                    datalength.CopyTo(c, 0);
+                    result.CopyTo(c, datalength.Length);
+                    //此处需要将数据包转换成字节数组并且在开头加上 2个字节来表示数据包的大小
+                    return c;
                 }
             }
             catch (Exception ex)

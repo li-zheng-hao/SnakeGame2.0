@@ -27,13 +27,21 @@ namespace Game
             
         }
 
+        /// <summary>
+        /// 处理用户发来的连接
+        /// </summary>
+        /// <param name="session"></param>
         private void OnAccept(Session session)
         {
             
             session.ReadCallback += OnRead;
             clients.Add(session);
         }
-
+        /// <summary>
+        /// 处理用户发来的数据
+        /// </summary>
+        /// <param name="session"></param>
+        /// <param name="msg"></param>
         private void OnRead(Session session, Message msg)
         {
             //todo 处理消息的派发

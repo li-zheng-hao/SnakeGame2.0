@@ -1,0 +1,40 @@
+2018/09/19-17:54:45.352 3dec Recovering log #22
+2018/09/19-17:54:45.358 3dec Level-0 table #57: started
+2018/09/19-17:54:45.471 3dec Level-0 table #57: 1030773 bytes OK
+2018/09/19-17:54:45.531 3dec Delete type=0 #22
+2018/09/19-17:54:45.531 3dec Delete type=3 #2
+2018/09/19-17:54:45.581 366c Compacting 1@0 + 4@1 files
+2018/09/19-17:54:45.634 366c Generated table #59: 165 keys, 61529 bytes
+2018/09/19-17:54:45.729 366c Generated table #60: 3094 keys, 2174704 bytes
+2018/09/19-17:54:45.841 366c Generated table #61: 2702 keys, 2185393 bytes
+2018/09/19-17:54:45.939 366c Generated table #62: 3487 keys, 2164046 bytes
+2018/09/19-17:54:46.029 366c Generated table #63: 2585 keys, 2173651 bytes
+2018/09/19-17:54:46.061 366c Generated table #64: 550 keys, 356392 bytes
+2018/09/19-17:54:46.061 366c Compacted 1@0 + 4@1 files => 9115715 bytes
+2018/09/19-17:54:46.097 366c Delete type=2 #46
+2018/09/19-17:54:46.097 366c Delete type=2 #47
+2018/09/19-17:54:46.098 366c Delete type=2 #48
+2018/09/19-17:54:46.099 366c Delete type=2 #49
+2018/09/19-17:54:46.100 366c Delete type=2 #57
+2018/09/19-17:54:46.100 366c compacted to: files[ 0 6 14 0 0 0 0 ]
+2018/09/19-17:54:47.102 366c Compacting 1@1 + 1@2 files
+2018/09/19-17:54:47.172 366c Generated table #65: 1386 keys, 1303605 bytes
+2018/09/19-17:54:47.172 366c Compacted 1@1 + 1@2 files => 1303605 bytes
+2018/09/19-17:54:47.183 366c Delete type=2 #43
+2018/09/19-17:54:47.184 366c Delete type=2 #64
+2018/09/19-17:54:47.184 366c compacted to: files[ 0 5 14 0 0 0 0 ]
+2018/09/19-17:55:24.224 366c Compacting 1@1 + 5@2 files
+2018/09/19-17:55:24.375 366c Generated table #66: 5861 keys, 2153900 bytes
+2018/09/19-17:55:24.448 366c Generated table #67: 4083 keys, 2174398 bytes
+2018/09/19-17:55:24.528 366c Generated table #68: 4941 keys, 2163792 bytes
+2018/09/19-17:55:24.612 366c Generated table #69: 4655 keys, 2163091 bytes
+2018/09/19-17:55:24.697 366c Generated table #70: 4548 keys, 2158740 bytes
+2018/09/19-17:55:24.712 366c Generated table #71: 125 keys, 48602 bytes
+2018/09/19-17:55:24.712 366c Compacted 1@1 + 5@2 files => 10862523 bytes
+2018/09/19-17:55:24.728 366c Delete type=2 #50
+2018/09/19-17:55:24.728 366c Delete type=2 #51
+2018/09/19-17:55:24.728 366c Delete type=2 #52
+2018/09/19-17:55:24.731 366c Delete type=2 #53
+2018/09/19-17:55:24.732 366c Delete type=2 #54
+2018/09/19-17:55:24.732 366c Delete type=2 #59
+2018/09/19-17:55:24.733 366c compacted to: files[ 0 4 15 0 0 0 0 ]

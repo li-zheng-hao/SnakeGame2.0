@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotfix", "Hotfix\Hotfix.csproj", "{65502814-F8E2-4680-AAC7-2D532DA9024E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{65502814-F8E2-4680-AAC7-2D532DA9024E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65502814-F8E2-4680-AAC7-2D532DA9024E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65502814-F8E2-4680-AAC7-2D532DA9024E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

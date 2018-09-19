@@ -1,0 +1,101 @@
+2018/09/19-17:32:19.650 3dec Delete type=3 #1
+2018/09/19-17:32:28.510 366c Level-0 table #5: started
+2018/09/19-17:32:28.683 366c Level-0 table #5: 3988021 bytes OK
+2018/09/19-17:32:28.710 366c Delete type=0 #3
+2018/09/19-17:32:29.017 366c Level-0 table #7: started
+2018/09/19-17:32:29.154 366c Level-0 table #7: 4162415 bytes OK
+2018/09/19-17:32:29.168 366c Delete type=0 #4
+2018/09/19-17:32:29.281 366c Level-0 table #9: started
+2018/09/19-17:32:29.415 366c Level-0 table #9: 3960338 bytes OK
+2018/09/19-17:32:29.427 366c Delete type=0 #6
+2018/09/19-17:32:29.558 366c Level-0 table #11: started
+2018/09/19-17:32:29.756 366c Level-0 table #11: 4339404 bytes OK
+2018/09/19-17:32:29.773 366c Delete type=0 #8
+2018/09/19-17:32:29.880 366c Level-0 table #13: started
+2018/09/19-17:32:30.006 366c Level-0 table #13: 3989870 bytes OK
+2018/09/19-17:32:30.029 366c Delete type=0 #10
+2018/09/19-17:32:30.130 366c Level-0 table #15: started
+2018/09/19-17:32:30.285 366c Level-0 table #15: 4489113 bytes OK
+2018/09/19-17:32:30.300 366c Delete type=0 #12
+2018/09/19-17:32:30.301 366c Compacting 4@0 + 1@1 files
+2018/09/19-17:32:30.407 366c Level-0 table #18: started
+2018/09/19-17:32:30.524 366c Level-0 table #18: 3839411 bytes OK
+2018/09/19-17:32:30.544 366c Delete type=0 #14
+2018/09/19-17:32:30.714 366c Generated table #17: 4445 keys, 2177750 bytes
+2018/09/19-17:32:30.714 366c Level-0 table #20: started
+2018/09/19-17:32:30.810 366c Level-0 table #20: 3811706 bytes OK
+2018/09/19-17:32:30.819 366c Delete type=0 #16
+2018/09/19-17:32:30.983 366c Generated table #21: 4938 keys, 2164705 bytes
+2018/09/19-17:32:30.983 366c Level-0 table #23: started
+2018/09/19-17:32:31.078 366c Level-0 table #23: 3739288 bytes OK
+2018/09/19-17:32:31.104 366c Delete type=0 #19
+2018/09/19-17:32:31.219 366c Generated table #24: 4272 keys, 2170209 bytes
+2018/09/19-17:32:31.300 366c Generated table #25: 3194 keys, 2167164 bytes
+2018/09/19-17:32:31.401 366c Generated table #26: 3303 keys, 2171665 bytes
+2018/09/19-17:32:31.504 366c Generated table #27: 2501 keys, 2188468 bytes
+2018/09/19-17:32:31.595 366c Generated table #28: 2567 keys, 2190404 bytes
+2018/09/19-17:32:31.672 366c Generated table #29: 3556 keys, 2166231 bytes
+2018/09/19-17:32:31.753 366c Generated table #30: 2606 keys, 2167280 bytes
+2018/09/19-17:32:31.836 366c Generated table #31: 1606 keys, 1328138 bytes
+2018/09/19-17:32:31.836 366c Compacted 4@0 + 1@1 files => 20892014 bytes
+2018/09/19-17:32:31.867 366c Delete type=2 #7
+2018/09/19-17:32:31.868 366c Delete type=2 #9
+2018/09/19-17:32:31.869 366c Delete type=2 #11
+2018/09/19-17:32:31.870 366c Delete type=2 #13
+2018/09/19-17:32:31.871 366c Delete type=2 #15
+2018/09/19-17:32:31.872 366c compacted to: files[ 3 10 1 0 0 0 0 ]
+2018/09/19-17:32:31.873 366c Expanding@1 1+1 to 10+1
+2018/09/19-17:32:31.873 366c Compacting 10@1 + 1@2 files
+2018/09/19-17:32:31.966 366c Generated table #32: 5834 keys, 2152761 bytes
+2018/09/19-17:32:32.057 366c Generated table #33: 4076 keys, 2175100 bytes
+2018/09/19-17:32:32.131 366c Generated table #34: 4970 keys, 2165152 bytes
+2018/09/19-17:32:32.241 366c Generated table #35: 4251 keys, 2163312 bytes
+2018/09/19-17:32:32.324 366c Generated table #36: 3314 keys, 2177409 bytes
+2018/09/19-17:32:32.420 366c Generated table #37: 2803 keys, 2172740 bytes
+2018/09/19-17:32:32.511 366c Generated table #38: 3502 keys, 2162388 bytes
+2018/09/19-17:32:32.593 366c Generated table #39: 2313 keys, 2191670 bytes
+2018/09/19-17:32:32.670 366c Generated table #40: 2755 keys, 2191374 bytes
+2018/09/19-17:32:32.759 366c Generated table #41: 3543 keys, 2160645 bytes
+2018/09/19-17:32:32.832 366c Generated table #42: 2703 keys, 2165614 bytes
+2018/09/19-17:32:32.887 366c Generated table #43: 1019 keys, 953633 bytes
+2018/09/19-17:32:32.887 366c Compacted 10@1 + 1@2 files => 24831798 bytes
+2018/09/19-17:32:32.905 366c Delete type=2 #5
+2018/09/19-17:32:32.905 366c Delete type=2 #17
+2018/09/19-17:32:32.906 366c Delete type=2 #21
+2018/09/19-17:32:32.907 366c Delete type=2 #24
+2018/09/19-17:32:32.907 366c Delete type=2 #25
+2018/09/19-17:32:32.908 366c Delete type=2 #26
+2018/09/19-17:32:32.909 366c Delete type=2 #27
+2018/09/19-17:32:32.909 366c Delete type=2 #28
+2018/09/19-17:32:32.910 366c Delete type=2 #29
+2018/09/19-17:32:32.911 366c Delete type=2 #30
+2018/09/19-17:32:32.911 366c Delete type=2 #31
+2018/09/19-17:32:32.912 366c compacted to: files[ 3 0 12 0 0 0 0 ]
+2018/09/19-17:33:17.840 366c Compacting 3@0 + 0@1 files
+2018/09/19-17:33:17.947 366c Generated table #44: 5118 keys, 2159586 bytes
+2018/09/19-17:33:17.985 366c Generated table #45: 1285 keys, 692280 bytes
+2018/09/19-17:33:18.069 366c Generated table #46: 3094 keys, 2174704 bytes
+2018/09/19-17:33:18.161 366c Generated table #47: 2702 keys, 2185393 bytes
+2018/09/19-17:33:18.245 366c Generated table #48: 3423 keys, 2163840 bytes
+2018/09/19-17:33:18.309 366c Generated table #49: 2378 keys, 1987629 bytes
+2018/09/19-17:33:18.309 366c Compacted 3@0 + 0@1 files => 11363432 bytes
+2018/09/19-17:33:18.323 366c Delete type=2 #18
+2018/09/19-17:33:18.324 366c Delete type=2 #20
+2018/09/19-17:33:18.325 366c Delete type=2 #23
+2018/09/19-17:33:18.326 366c compacted to: files[ 0 6 12 0 0 0 0 ]
+2018/09/19-17:33:18.326 366c Expanding@1 1+4 to 2+4
+2018/09/19-17:33:18.326 366c Compacting 2@1 + 4@2 files
+2018/09/19-17:33:18.415 366c Generated table #50: 5853 keys, 2152692 bytes
+2018/09/19-17:33:18.497 366c Generated table #51: 4074 keys, 2173851 bytes
+2018/09/19-17:33:18.568 366c Generated table #52: 4966 keys, 2165752 bytes
+2018/09/19-17:33:18.638 366c Generated table #53: 4637 keys, 2161413 bytes
+2018/09/19-17:33:18.712 366c Generated table #54: 4575 keys, 2158980 bytes
+2018/09/19-17:33:18.774 366c Generated table #55: 1429 keys, 695897 bytes
+2018/09/19-17:33:18.774 366c Compacted 2@1 + 4@2 files => 11508585 bytes
+2018/09/19-17:33:18.793 366c Delete type=2 #32
+2018/09/19-17:33:18.793 366c Delete type=2 #33
+2018/09/19-17:33:18.794 366c Delete type=2 #34
+2018/09/19-17:33:18.795 366c Delete type=2 #35
+2018/09/19-17:33:18.795 366c Delete type=2 #44
+2018/09/19-17:33:18.796 366c Delete type=2 #45
+2018/09/19-17:33:18.796 366c compacted to: files[ 0 4 14 0 0 0 0 ]

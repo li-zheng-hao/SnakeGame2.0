@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="protobuf-net">
-      <HintPath>..\..\..\SnakeGame\SnakeServer\贪吃蛇服务器\Core\bin\Debug\protobuf-net.dll</HintPath>
+      <HintPath>..\..\..\..\SnakeGame\SnakeServer\贪吃蛇服务器\Core\bin\Debug\protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +48,7 @@
     <Compile Include="Module\Message\Message.cs" />
     <Compile Include="Module\Message\MessageType\LoginMessage.cs" />
     <Compile Include="Module\Message\MessageType\RegisterMessage.cs" />
+    <Compile Include="Module\Message\MessageType\UpdatePosMessage.cs" />
     <Compile Include="Module\Message\NetworkCenter.cs" />
     <Compile Include="Module\Message\OpCode.cs" />
     <Compile Include="Module\Message\TCP\Session.cs" />
@@ -56,6 +57,9 @@
     <Compile Include="Module\Util\MessageHelper.cs" />
     <Compile Include="Module\Util\SocketAsyncEventArgsPool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
