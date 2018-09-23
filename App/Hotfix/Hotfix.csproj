@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\SnakeDemo\Assets\Plugins\</OutputPath>
+    <OutputPath>..\..\SnakeDemo\Assets\Plugins\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -66,6 +66,9 @@
     <Compile Include="Message\MessageType\UpdatePosMessage.cs" />
     <Compile Include="Message\RequestCode.cs" />
     <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\PlayerInfo.cs" />
+    <Compile Include="Model\Players.cs" />
+    <Compile Include="Model\Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

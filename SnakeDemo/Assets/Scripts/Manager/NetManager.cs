@@ -30,10 +30,13 @@ namespace Game
             switch (recode)
             {
                 case RequestCode.Login:
-                    LoginRequest req = new LoginRequest();
-                    req.Response(msg);
+                    LoginRequest login = new LoginRequest();
+                    login.Response(msg);
                     break;
-
+                case RequestCode.EnterRoom:
+                    EnterRoomRequest enter=new EnterRoomRequest();
+                    enter.Response(msg);
+                    break;
             }
         }
 

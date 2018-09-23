@@ -19,7 +19,8 @@ namespace Game
     {
         Login=0,
         Regist=1,
-
+        EnterRoom=2,
+        UpdatePos=3,
 
     }
 }

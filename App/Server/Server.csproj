@@ -65,6 +65,7 @@
     <Compile Include="Module\DAL\AccountDAO.cs" />
     <Compile Include="Module\DAL\DB.cs" />
     <Compile Include="Module\DAL\DBHelper.cs" />
+    <Compile Include="Module\Handler\EnterRoomHandler.cs" />
     <Compile Include="Module\Handler\HandlerFactory.cs" />
     <Compile Include="Module\Handler\IHandler.cs" />
     <Compile Include="Module\Handler\LoginHandler.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Module\Message\NetworkCenter.cs" />
     <Compile Include="Module\Message\TCP\Session.cs" />
     <Compile Include="Module\Message\TCP\Service.cs" />
+    <Compile Include="Module\Model\Player.cs" />
+    <Compile Include="Module\Model\Room.cs" />
     <Compile Include="Module\Util\BufferManager.cs" />
     <Compile Include="Module\Util\MessageHelper.cs" />
     <Compile Include="Module\Util\SocketAsyncEventArgsPool.cs" />
@@ -86,9 +89,7 @@
       <Name>Hotfix</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Module\Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config">
       <SubType>Designer</SubType>

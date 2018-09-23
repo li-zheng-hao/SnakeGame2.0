@@ -11,8 +11,8 @@ namespace App
     {
         static void Main(string[] args)
         {
-            NetworkCenter app=new NetworkCenter();
-            app.server.Start();
+
+            NetworkCenter.Instance.server.Start();
             while (true)
             {
                 

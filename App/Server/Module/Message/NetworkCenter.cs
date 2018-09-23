@@ -17,13 +17,23 @@ namespace Game
 {
     public class NetworkCenter
     {
+        private static NetworkCenter instance=new NetworkCenter();
+
+        public static NetworkCenter Instance
+        {
+            get { return instance; }
+        }
         public Service server;
         public List<Session> clients=new List<Session>();
+        public List<Session> roomList=new List<Session>();
+
+        public Room room=new Room();
 
         public NetworkCenter()
         {
             server=new Service("127.0.0.1",55555);
             server.OnAccept += OnAccept;
+            
             
         }
 
@@ -51,6 +61,16 @@ namespace Game
             
             IHandler handler = HandlerFactory.CreateHandler(msg.RequestCode);
             handler.Handle(session,msg);
+        }
+
+        public void BroadCastMsg(Message msg)
+        {
+            var datas = MessageHelper.Serialize(msg);
+
+            foreach (var client in roomList)
+            {
+                client.Send(datas);
+            }
         }
         
     }

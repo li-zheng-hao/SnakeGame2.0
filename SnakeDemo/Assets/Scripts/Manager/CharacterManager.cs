@@ -15,8 +15,9 @@ namespace Game
 {
     public class CharacterManager:BaseManager
     {
-        private List<AccountRT> players;
+        private List<PlayerInfo> players;
         private AccountRT localPlayer;
+        private PlayerInfo localInfo;
 
         public override void Update()
         {
@@ -25,7 +26,7 @@ namespace Game
 
         public override void OnInit()
         {
-            players=new List<AccountRT>();
+            players=new List<PlayerInfo>();
         }
 
         public override void OnDestroy()
@@ -40,6 +41,18 @@ namespace Game
         public string GetLocalPlayerName()
         {
             return localPlayer.username;
+        }
+
+        public void UpdatePlayers(List<PlayerInfo> playersInfos)
+        {
+            players.Clear();
+            foreach (var pl in playersInfos)
+            {
+                if (pl.username!=localPlayer.username)
+                {
+                    players.Add(pl);
+                }
+            }
         }
     
     }

@@ -1,23 +1,20 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.AccountDAO.VerifyUser%28MySql.Data.MySqlClient.MySqlConnection%2CSystem.String%2CSystem.String%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.AccountDAO.GetUserByUsername%28MySql.Data.MySqlClient.MySqlConnection%2CSystem.String%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.AccountDAO.VerifyUser%28MySql.Data.MySqlClient.MySqlConnection%2CSystem.String%2CSystem.String%29" />
-    <RecentMethod id="30fae5c9-8690-4dbf-9e1a-3eb5d7dc6550%28ClientTest%29-4EBD9F30%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AClientTest.Program.Main%28System.String%5B%5D%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.LoginHandler.Handle%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.LoginHandler.Response%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.LoginHandler.Handle%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.LoginHandler.Handle%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.LoginHandler.Handle%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.NetworkCenter.OnRead%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.HandlerFactory.CreateHandler%28Game.RequestCode%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.NetworkCenter.OnRead%28Game.Session%2CGame.Message%29" />
-    <RecentMethod id="65502814-f8e2-4680-aac7-2d532da9024e%28Hotfix%29-A4E0DE7B%5B.NETFramework%2CVersion%3Dv4.6%5D/P%3AGame.Account.id" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.DB.Dispose" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.AccountDAO.VerifyUser%28MySql.Data.MySqlClient.MySqlConnection%2CSystem.String%2CSystem.String%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.AccountDAO.AddUser%28MySql.Data.MySqlClient.MySqlConnection%2CSystem.String%2CSystem.String%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.DB.Connect%28MySql.Data.MySqlClient.MySqlConnection%29" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.DB.GetConnection" />
-    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.DB.GetConnection" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.NetworkCenter.BroadCastMsg%28Game.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.Room.GetPlayer" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.Room.GetPlayer" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/F%3AGame.NetworkCenter.room" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Handle%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.Room.%23ctor" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Handle%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="b605a9fc-d847-4b1f-a3b1-3af5411ed206%28Server%29-B7189516%5B.NETFramework%2CVersion%3Dv4.6%5D/M%3AGame.EnterRoomHandler.Response%28Game.Session%2CGame.Message%29" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

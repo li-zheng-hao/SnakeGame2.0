@@ -26,6 +26,14 @@ namespace Game
             bot = transform.Find("botMode").GetComponent<Button>();
             shop = transform.Find("skin").GetComponent<Button>();
             username = transform.Find("username").GetComponent<Text>();
+
+            multi.onClick.AddListener(MultiClick);
+        }
+
+        private void MultiClick()
+        {
+            EnterRoomRequest req=new EnterRoomRequest();
+            req.SendRequest(RequestCode.EnterRoom,null);
         }
 
         private void Start()

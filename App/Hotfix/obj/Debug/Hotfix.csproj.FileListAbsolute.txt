@@ -2,8 +2,10 @@ E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\bin\Debug\Hotfix.dll
 E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\bin\Debug\Hotfix.pdb
 E:\SnakeGame2.0\SnakeDemo\Assets\Plugins\Hotfix.dll
 E:\SnakeGame2.0\SnakeDemo\Assets\Plugins\Hotfix.pdb
-E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.csprojAssemblyReference.cache
 E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.csproj.CoreCompileInputs.cache
 E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.csproj.CopyComplete
 E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.dll
 E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.pdb
+E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Assets\Plugins\Hotfix.dll
+E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Assets\Plugins\Hotfix.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\Hotfix\obj\Debug\Hotfix.csprojAssemblyReference.cache

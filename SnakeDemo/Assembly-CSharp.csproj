@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\Scripts\Game\SnakeController.cs" />
     <Compile Include="Assets\Scripts\Manager\BaseManager.cs" />
     <Compile Include="Assets\Scripts\Manager\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
@@ -68,9 +69,11 @@
     <Compile Include="Assets\Scripts\Manager\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\Model\AccountRT.cs" />
+    <Compile Include="Assets\Scripts\Model\RoomRT.cs" />
     <Compile Include="Assets\Scripts\Net\MessageHelper.cs" />
     <Compile Include="Assets\Scripts\Net\TCP\Session.cs" />
     <Compile Include="Assets\Scripts\Request\BaseRequest.cs" />
+    <Compile Include="Assets\Scripts\Request\EnterRoomRequest.cs" />
     <Compile Include="Assets\Scripts\Request\LoginRequest.cs" />
     <Compile Include="Assets\Scripts\UI\AccountPanel.cs" />
     <Compile Include="Assets\Scripts\UI\BasePanel.cs" />
@@ -86,16 +89,16 @@
     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -292,50 +295,50 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="DnsClient">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/DnsClient.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/DnsClient.dll</HintPath>
     </Reference>
     <Reference Include="Hotfix">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/Hotfix.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/Hotfix.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Bson">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Bson.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Bson.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Driver.Core">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Driver.Core.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Driver.Core.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Driver">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Driver.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/MongoDB.Driver.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/protobuf-net.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System.Buffers">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Plugins/System.Buffers.dll</HintPath>
+      <HintPath>E:/SnakeGame2.0/SnakeGame2.0/SnakeDemo/Assets/Plugins/System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/think/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/think/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-      <HintPath>E:/SnakeGame2.0/SnakeDemo/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
