@@ -1,0 +1,35 @@
+﻿<RecentlyViewedMethods>
+  <RecentlyViewedMethods>
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Session.BeginReSolveMsg" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.Start" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.AccountPanel.username" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.Awake" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.Start" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.SceneManager.LoadScene%28System.Int32%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.SceneManager.LoadScene%28System.Int32%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.SceneManager.LoadScene%28System.Int32%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.SceneManager.LoadScene%28System.Int32%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginRequest.Response%28Game.Message%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginPanel.LoginClick" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.GameManager.Start" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.GameManager.netManager" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.SceneManager.LoadScene%28System.Int32%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginRequest.SendRequest%28Game.RequestCode%2CSystem.Object%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginPanel.LoginClick" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.UIManager.ClearStack" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.OnEnter" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.Awake" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.AccountPanel.Awake" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.UIManager.ShowMessageAsync%28System.String%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.UIManager.ShowMessageAsync%28System.String%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Session.ProcessReceive%28System.Net.Sockets.SocketAsyncEventArgs%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.NetManager.OnRead%28Game.Session%2CGame.Message%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Session.ProcessReceive%28System.Net.Sockets.SocketAsyncEventArgs%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.GameManager.netManager" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Session.BeginReSolveMsg" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.MessageHelper.Serialize%28Game.Message%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.CharacterManager.OnInit" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginRequest.Response%28Game.Message%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.CharacterManager.OnInit" />
+  </RecentlyViewedMethods>
+</RecentlyViewedMethods>

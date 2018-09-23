@@ -1,0 +1,53 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:BaseManager.cs" caret="580" fromTop="24" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:PanelType.cs" caret="214" fromTop="7" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:BasePanel.cs" caret="311" fromTop="10" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:RegistPanel.cs" caret="615" fromTop="0" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:BaseRequest.cs" caret="364" fromTop="13" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:AccountRT.cs" caret="482" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/f:MessageHelper.cs" caret="499" fromTop="9" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:UIManager.cs" caret="3322" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1973" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:LoginPanel.cs" caret="1520" fromTop="20" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="717" fromTop="12" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:StartPanel.cs" caret="282" fromTop="12" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="173" fromTop="6" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="893" fromTop="30" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/d:TCP/f:Session.cs" caret="4390" fromTop="15" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:NetManager.cs" caret="592" fromTop="28" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="927" fromTop="16" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="286" fromTop="13" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="610" fromTop="26" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="439" fromTop="18" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="1189" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:AccountRT.cs" caret="482" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/d:TCP/f:Session.cs" caret="3222" fromTop="20" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/d:TCP/f:Session.cs" caret="2832" fromTop="17" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:UIManager.cs" caret="1052" fromTop="15" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:UIManager.cs" caret="787" fromTop="25" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1130" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1195" fromTop="26" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1259" fromTop="30" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1324" fromTop="34" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="544" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="243" fromTop="8" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:UIManager.cs" caret="3322" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:LoginPanel.cs" caret="1557" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="413" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="657" fromTop="26" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="241" fromTop="7" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1230" fromTop="17" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1446" fromTop="24" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1580" fromTop="28" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1769" fromTop="36" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1973" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="1067" fromTop="19" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="577" fromTop="20" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="821" fromTop="35" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="893" fromTop="30" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="966" fromTop="17" />
+  </RecentEdits>
+</RecentFiles>
