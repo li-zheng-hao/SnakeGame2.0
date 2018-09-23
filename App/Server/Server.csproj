@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>D:\CSharpDriver-1.7.0.4714\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>D:\CSharpDriver-1.7.0.4714\MongoDB.Driver.dll</HintPath>
+    </Reference>
     <Reference Include="protobuf-net">
       <HintPath>..\..\..\..\SnakeGame\SnakeServer\贪吃蛇服务器\Core\bin\Debug\protobuf-net.dll</HintPath>
     </Reference>
@@ -41,18 +47,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Module\DAL\DBHelper.cs" />
     <Compile Include="Module\Handler\HandlerFactory.cs" />
     <Compile Include="Module\Handler\IHandler.cs" />
+    <Compile Include="Module\Handler\LoginHandler.cs" />
+    <Compile Include="Module\Message\RequestCode.cs" />
     <Compile Include="Module\Message\Message.cs" />
-    <Compile Include="Module\Message\MessageType\LoginMessage.cs" />
-    <Compile Include="Module\Message\MessageType\RegisterMessage.cs" />
-    <Compile Include="Module\Message\MessageType\UpdatePosMessage.cs" />
     <Compile Include="Module\Message\NetworkCenter.cs" />
-    <Compile Include="Module\Message\OpCode.cs" />
     <Compile Include="Module\Message\TCP\Session.cs" />
     <Compile Include="Module\Message\TCP\Service.cs" />
+    <Compile Include="Module\Model\Account.cs" />
     <Compile Include="Module\Util\BufferManager.cs" />
     <Compile Include="Module\Util\MessageHelper.cs" />
     <Compile Include="Module\Util\SocketAsyncEventArgsPool.cs" />
@@ -60,6 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hotfix\Hotfix.csproj">
+      <Project>{65502814-f8e2-4680-aac7-2d532da9024e}</Project>
+      <Name>Hotfix</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

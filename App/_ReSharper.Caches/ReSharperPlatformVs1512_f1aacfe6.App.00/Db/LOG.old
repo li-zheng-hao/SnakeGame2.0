@@ -1,45 +1,33 @@
-2018/09/19-16:59:07.257 3f04 Recovering log #76
-2018/09/19-16:59:07.258 3f04 Level-0 table #84: started
-2018/09/19-16:59:07.307 3f04 Level-0 table #84: 43490 bytes OK
-2018/09/19-16:59:07.354 3f04 Delete type=0 #76
-2018/09/19-16:59:07.354 3f04 Delete type=3 #74
-2018/09/19-16:59:07.941 24f4 Compacting 1@0 + 6@1 files
-2018/09/19-16:59:07.994 24f4 Generated table #86: 151 keys, 42040 bytes
-2018/09/19-16:59:08.077 24f4 Generated table #87: 3694 keys, 2157805 bytes
-2018/09/19-16:59:08.192 24f4 Generated table #88: 2407 keys, 2182499 bytes
-2018/09/19-16:59:08.274 24f4 Generated table #89: 3141 keys, 2179840 bytes
-2018/09/19-16:59:08.341 24f4 Generated table #90: 2637 keys, 2185276 bytes
-2018/09/19-16:59:08.374 24f4 Generated table #91: 157 keys, 134276 bytes
-2018/09/19-16:59:08.374 24f4 Compacted 1@0 + 6@1 files => 8881736 bytes
-2018/09/19-16:59:08.392 24f4 Delete type=2 #77
-2018/09/19-16:59:08.392 24f4 Delete type=2 #78
-2018/09/19-16:59:08.394 24f4 Delete type=2 #79
-2018/09/19-16:59:08.394 24f4 Delete type=2 #80
-2018/09/19-16:59:08.395 24f4 Delete type=2 #81
-2018/09/19-16:59:08.396 24f4 Delete type=2 #82
-2018/09/19-16:59:08.396 24f4 Delete type=2 #84
-2018/09/19-16:59:08.396 24f4 compacted to: files[ 0 6 15 0 0 0 0 ]
-2018/09/19-17:00:48.935 24f4 Compacting 1@1 + 1@2 files
-2018/09/19-17:00:49.071 24f4 Generated table #92: 1578 keys, 1696447 bytes
-2018/09/19-17:00:49.071 24f4 Compacted 1@1 + 1@2 files => 1696447 bytes
-2018/09/19-17:00:49.086 24f4 Delete type=2 #65
-2018/09/19-17:00:49.086 24f4 Delete type=2 #91
-2018/09/19-17:00:49.087 24f4 compacted to: files[ 0 5 15 0 0 0 0 ]
-2018/09/19-17:28:02.587 24f4 Level-0 table #94: started
-2018/09/19-17:28:02.689 24f4 Level-0 table #94: 3077418 bytes OK
-2018/09/19-17:28:02.707 24f4 Delete type=0 #85
-2018/09/19-17:31:17.384 24f4 Compacting 1@0 + 5@1 files
-2018/09/19-17:31:17.433 24f4 Generated table #95: 432 keys, 87087 bytes
-2018/09/19-17:31:17.553 24f4 Generated table #96: 3694 keys, 2157805 bytes
-2018/09/19-17:31:17.660 24f4 Generated table #97: 2407 keys, 2182499 bytes
-2018/09/19-17:31:17.734 24f4 Generated table #98: 3141 keys, 2179840 bytes
-2018/09/19-17:31:17.801 24f4 Generated table #99: 2637 keys, 2185276 bytes
-2018/09/19-17:31:17.825 24f4 Generated table #100: 272 keys, 63742 bytes
-2018/09/19-17:31:17.825 24f4 Compacted 1@0 + 5@1 files => 8856249 bytes
-2018/09/19-17:31:17.853 24f4 Delete type=2 #86
-2018/09/19-17:31:17.853 24f4 Delete type=2 #87
-2018/09/19-17:31:17.854 24f4 Delete type=2 #88
-2018/09/19-17:31:17.854 24f4 Delete type=2 #89
-2018/09/19-17:31:17.855 24f4 Delete type=2 #90
-2018/09/19-17:31:17.855 24f4 Delete type=2 #94
-2018/09/19-17:31:17.856 24f4 compacted to: files[ 0 6 15 0 0 0 0 ]
+2018/09/21-20:16:43.455 50b8 Recovering log #133
+2018/09/21-20:16:43.489 50b8 Level-0 table #142: started
+2018/09/21-20:16:43.566 50b8 Level-0 table #142: 773126 bytes OK
+2018/09/21-20:16:43.627 50b8 Delete type=0 #133
+2018/09/21-20:16:43.628 50b8 Delete type=3 #131
+2018/09/21-20:16:44.277 5334 Compacting 1@0 + 5@1 files
+2018/09/21-20:16:44.383 5334 Generated table #144: 454 keys, 101857 bytes
+2018/09/21-20:16:44.591 5334 Generated table #145: 3694 keys, 2157805 bytes
+2018/09/21-20:16:44.732 5334 Generated table #146: 2407 keys, 2182499 bytes
+2018/09/21-20:16:44.885 5334 Generated table #147: 3141 keys, 2179840 bytes
+2018/09/21-20:16:45.017 5334 Generated table #148: 2637 keys, 2185276 bytes
+2018/09/21-20:16:45.060 5334 Generated table #149: 199 keys, 60609 bytes
+2018/09/21-20:16:45.060 5334 Compacted 1@0 + 5@1 files => 8867886 bytes
+2018/09/21-20:16:45.092 5334 Delete type=2 #134
+2018/09/21-20:16:45.092 5334 Delete type=2 #135
+2018/09/21-20:16:45.093 5334 Delete type=2 #136
+2018/09/21-20:16:45.093 5334 Delete type=2 #137
+2018/09/21-20:16:45.094 5334 Delete type=2 #138
+2018/09/21-20:16:45.094 5334 Delete type=2 #142
+2018/09/21-20:16:45.095 5334 compacted to: files[ 0 6 15 0 0 0 0 ]
+2018/09/21-20:18:39.599 5334 Compacting 1@1 + 1@2 files
+2018/09/21-20:18:39.779 5334 Generated table #150: 1653 keys, 1720732 bytes
+2018/09/21-20:18:39.779 5334 Compacted 1@1 + 1@2 files => 1720732 bytes
+2018/09/21-20:18:39.793 5334 Delete type=2 #140
+2018/09/21-20:18:39.794 5334 Delete type=2 #149
+2018/09/21-20:18:39.794 5334 compacted to: files[ 0 5 15 0 0 0 0 ]
+2018/09/21-20:19:48.541 5334 Compacting 1@1 + 1@2 files
+2018/09/21-20:19:48.707 5334 Generated table #151: 4865 keys, 2157890 bytes
+2018/09/21-20:19:48.745 5334 Generated table #152: 84 keys, 25974 bytes
+2018/09/21-20:19:48.745 5334 Compacted 1@1 + 1@2 files => 2183864 bytes
+2018/09/21-20:19:48.757 5334 Delete type=2 #66
+2018/09/21-20:19:48.757 5334 Delete type=2 #144
+2018/09/21-20:19:48.758 5334 compacted to: files[ 0 4 16 0 0 0 0 ]

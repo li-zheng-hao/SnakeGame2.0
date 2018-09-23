@@ -11,3 +11,9 @@ E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.csproj.CoreComp
 E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.csproj.CopyComplete
 E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.exe
 E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\obj\Debug\ClientTest.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Driver.dll
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Bson.dll
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Driver.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Driver.xml
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Bson.pdb
+E:\SnakeGame2.0\SnakeGame2.0\App\ClientTest\bin\Debug\MongoDB.Bson.xml

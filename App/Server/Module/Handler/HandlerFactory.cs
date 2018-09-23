@@ -15,16 +15,16 @@ namespace Game
 {
     public static class HandlerFactory
     {
-        public const string dllName = "Server";
+        public const string dllName = "Game";
         public const string classTail = "Handler";
         /// <summary>
         /// 通过反射来创建相应的处理类
         /// </summary>
-        /// <param name="opCode"></param>
+        /// <param name="reCode"></param>
         /// <returns></returns>
-        public static IHandler CreateHandler(OpCode opCode)
+        public static IHandler CreateHandler(RequestCode reCode)
         {
-            string name = Enum.GetName(typeof(OpCode), opCode);
+            string name = Enum.GetName(typeof(RequestCode), reCode);
             string className = name + classTail;
             Assembly assem = Assembly.Load(dllName);
             Type type = assem.GetType(dllName + "." + className);

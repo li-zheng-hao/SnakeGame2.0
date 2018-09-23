@@ -85,11 +85,14 @@ namespace Game
                 var data = new byte[e.BytesTransferred];
                 Array.Copy(e.Buffer, e.Offset, data, 0, data.Length);
                 msgQue.AddRange(data);
-                if (isResolveMsg==false)
-                {
-                    BeginReSolveMsg();
-                    isResolveMsg = true;
-                }
+//                if (isResolveMsg==false)
+//                {
+//                    isResolveMsg = true;
+                Console.WriteLine("Test:接收到数据"+data.Length);
+//                client.Send(msgQue.ToArray());
+                   BeginReSolveMsg();
+                    
+//                }
                 if (!client.ReceiveAsync(e))
                 {
                     ProcessReceive(e);
@@ -108,6 +111,7 @@ namespace Game
         /// </summary>
         private void BeginReSolveMsg()
         {
+
             lock (msgQue)
             {
                 if (msgQue.Count > 2)
@@ -121,11 +125,14 @@ namespace Game
                         var data = msgQue.GetRange(0, length2).ToArray();
                         msgQue.RemoveRange(0, length2);
                         Message ms = MessageHelper.DeSerialize(data);
-                        Console.Write("服务器接收到了消息");
+
+                        Console.Write("数据长度为" + length2);
                         readCallback?.Invoke(this, ms);
                     }
                 }
             }
+
+
         }
         /// <summary>
         /// 关闭连接

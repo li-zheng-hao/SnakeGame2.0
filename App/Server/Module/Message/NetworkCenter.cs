@@ -33,10 +33,12 @@ namespace Game
         /// <param name="session"></param>
         private void OnAccept(Session session)
         {
-            
             session.ReadCallback += OnRead;
             clients.Add(session);
         }
+       
+        
+        
         /// <summary>
         /// 处理用户发来的数据
         /// </summary>
@@ -44,7 +46,11 @@ namespace Game
         /// <param name="msg"></param>
         private void OnRead(Session session, Message msg)
         {
-            //todo 处理消息的派发
+            //todo 处理消息的派发  分发给各个handler
+            Console.WriteLine("这里需要将接收到的数据给分发");
+            IHandler handler = HandlerFactory.CreateHandler(msg.RequestCode);
+            handler.Handle(session,msg);
         }
+        
     }
 }

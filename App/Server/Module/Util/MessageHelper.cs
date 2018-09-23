@@ -26,7 +26,7 @@ namespace Game
                 {
                     //使用ProtoBuf工具的序列化方法
                     ProtoBuf.Serializer.Serialize<Message>(ms, model);
-                    //定义二级制数组，保存序列化后的结果
+                 
                     byte[] result = new byte[ms.Length];
                     //将流的位置设为0，起始点
                     ms.Position = 0;
@@ -63,7 +63,6 @@ namespace Game
                     ms.Position = 0;
                     //使用工具反序列化对象
                     return  ProtoBuf.Serializer.Deserialize<Message>(ms);
-                    
                 }
             }
             catch (Exception ex)

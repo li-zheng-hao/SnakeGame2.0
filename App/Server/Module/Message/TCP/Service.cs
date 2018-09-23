@@ -26,7 +26,7 @@ namespace Game
        
         #region 属性
 
-
+        private int nums = 0;
         //读或者写的操作
         const int opsToPreAlloc = 2;
 
@@ -34,7 +34,7 @@ namespace Game
 
         private readonly IPEndPoint ipEndPoint;
 
-        public const int maxConnection = 100;
+        public const int maxConnection = 100000;
 
         private Semaphore semaphore;
 
@@ -169,7 +169,8 @@ namespace Game
 
         private void ProcessAccept(SocketAsyncEventArgs args)
         {
-            Console.WriteLine("A client Coming");
+            Console.WriteLine("A client Coming+"+nums);
+            nums++;
             // Get the socket for the accepted client connection and put it into the 
             //ReadEventArg object user token
             SocketAsyncEventArgs readEventArgs = eventArgsPool.Pop();
