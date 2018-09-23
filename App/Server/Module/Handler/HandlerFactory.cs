@@ -15,7 +15,7 @@ namespace Game
 {
     public static class HandlerFactory
     {
-        public const string dllName = "Game";
+        public const string dllName = "Server";
         public const string classTail = "Handler";
         /// <summary>
         /// 通过反射来创建相应的处理类
@@ -27,7 +27,7 @@ namespace Game
             string name = Enum.GetName(typeof(RequestCode), reCode);
             string className = name + classTail;
             Assembly assem = Assembly.Load(dllName);
-            Type type = assem.GetType(dllName + "." + className);
+            Type type = assem.GetType("Game" + "." + className);
             return Activator.CreateInstance(type) as IHandler;
         }
     }

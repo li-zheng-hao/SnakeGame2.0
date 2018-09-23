@@ -19,6 +19,11 @@ namespace ClientTest
 //            DBHelper helper=new DBHelper();
 //            helper.Connect();
 //            helper.Insert();
+            Account ac=new Account();
+            ac.username = "123";
+            ac.password = "123";
+//            DBHelper.Instance.Insert(ac,"account");
+
         }
 
     }

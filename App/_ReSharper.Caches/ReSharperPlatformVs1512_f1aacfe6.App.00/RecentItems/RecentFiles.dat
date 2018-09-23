@@ -1,53 +1,56 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="198ACC23-B0F0-4180-8621-1BB821F3A695/f:Program.cs" caret="315" fromTop="14" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:BufferManager.cs" caret="0" fromTop="0" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:MessageHelper.cs" caret="1564" fromTop="46" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Service.cs" caret="603" fromTop="24" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="4002" fromTop="24" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="3116" fromTop="15" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Util/f:SocketAsyncEventArgsPool.cs" caret="757" fromTop="0" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Model/f:Account.cs" caret="361" fromTop="15" />
     <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:IHandler.cs" caret="0" fromTop="0" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="546" fromTop="21" />
-    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="409" fromTop="4" />
-    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Model/f:Account.cs" caret="407" fromTop="15" />
-    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:Message.cs" caret="0" fromTop="0" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:RequestCode.cs" caret="385" fromTop="16" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="519" fromTop="8" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="680" fromTop="20" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="681" fromTop="17" />
-    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:RequestCode.cs" caret="460" fromTop="21" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/f:packages.config" caret="0" fromTop="0" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:Message.cs" caret="357" fromTop="16" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/d:MessageType/f:LoginMessage.cs" caret="414" fromTop="20" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/f:packages.config" caret="0" fromTop="0" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Model/f:Account.cs" caret="569" fromTop="23" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="494" fromTop="21" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:RequestCode.cs" caret="382" fromTop="15" />
+    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="409" fromTop="16" />
+    <File id="198ACC23-B0F0-4180-8621-1BB821F3A695/f:Program.cs" caret="0" fromTop="0" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="686" fromTop="28" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="844" fromTop="12" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="709" fromTop="13" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="447" fromTop="17" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="1435" fromTop="22" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="996" fromTop="18" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="1228" fromTop="15" />
   </RecentFiles>
   <RecentEdits>
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="367" fromTop="19" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/d:TCP/f:Session.cs" caret="2828" fromTop="17" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="984" fromTop="23" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="243" fromTop="8" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Model/f:Account.cs" caret="243" fromTop="8" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Model/f:Account.cs" caret="463" fromTop="18" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="609" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="829" fromTop="33" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1370" fromTop="14" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1325" fromTop="19" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="2040" fromTop="16" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1944" fromTop="17" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="2580" fromTop="16" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="3470" fromTop="36" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="2973" fromTop="26" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="3474" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="399" fromTop="6" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="0" fromTop="0" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="398" fromTop="17" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="633" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="530" fromTop="29" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="545" fromTop="21" />
-    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="409" fromTop="4" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:RequestCode.cs" caret="439" fromTop="19" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="530" fromTop="25" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:Message.cs" caret="882" fromTop="40" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="1367" fromTop="28" />
-    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="664" fromTop="19" />
-    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Message/f:RequestCode.cs" caret="460" fromTop="21" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="2850" fromTop="36" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="2850" fromTop="30" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="3529" fromTop="19" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="3529" fromTop="110" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="3529" fromTop="8" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1148" fromTop="9" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1151" fromTop="33" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1148" fromTop="29" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DBHelper.cs" caret="1151" fromTop="48" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="2851" fromTop="40" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Model/f:Account.cs" caret="616" fromTop="18" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="3530" fromTop="40" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="1328" fromTop="34" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="1717" fromTop="34" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="2676" fromTop="35" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="3469" fromTop="28" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="2991" fromTop="15" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="2037" fromTop="15" />
+    <File id="65502814-F8E2-4680-AAC7-2D532DA9024E/d:Model/f:Account.cs" caret="568" fromTop="23" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Message/f:NetworkCenter.cs" caret="1304" fromTop="15" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="401" fromTop="4" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:HandlerFactory.cs" caret="901" fromTop="16" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="830" fromTop="26" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:Handler/f:LoginHandler.cs" caret="1003" fromTop="32" />
+    <File id="30FAE5C9-8690-4DBF-9E1A-3EB5D7DC6550/f:Program.cs" caret="605" fromTop="22" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:AccountDAO.cs" caret="691" fromTop="14" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="698" fromTop="28" />
+    <File id="B605A9FC-D847-4B1F-A3B1-3AF5411ED206/d:Module/d:DAL/f:DB.cs" caret="709" fromTop="28" />
   </RecentEdits>
 </RecentFiles>

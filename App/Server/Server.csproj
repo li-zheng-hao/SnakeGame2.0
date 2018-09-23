@@ -11,6 +11,7 @@
     <AssemblyName>Server</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,16 +31,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MongoDB.Bson">
-      <HintPath>D:\CSharpDriver-1.7.0.4714\MongoDB.Bson.dll</HintPath>
+    <Reference Include="DnsClient, Version=1.0.7.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
+      <HintPath>..\packages\DnsClient.1.0.7\lib\net45\DnsClient.dll</HintPath>
     </Reference>
-    <Reference Include="MongoDB.Driver">
-      <HintPath>D:\CSharpDriver-1.7.0.4714\MongoDB.Driver.dll</HintPath>
+    <Reference Include="MongoDB.Bson, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MongoDB\CSharpDriver-2.7.0\net45\MongoDB.Bson.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MongoDB\CSharpDriver-2.7.0\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="protobuf-net">
       <HintPath>..\..\..\..\SnakeGame\SnakeServer\贪吃蛇服务器\Core\bin\Debug\protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,16 +62,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Module\DAL\AccountDAO.cs" />
+    <Compile Include="Module\DAL\DB.cs" />
     <Compile Include="Module\DAL\DBHelper.cs" />
     <Compile Include="Module\Handler\HandlerFactory.cs" />
     <Compile Include="Module\Handler\IHandler.cs" />
     <Compile Include="Module\Handler\LoginHandler.cs" />
-    <Compile Include="Module\Message\RequestCode.cs" />
     <Compile Include="Module\Message\Message.cs" />
     <Compile Include="Module\Message\NetworkCenter.cs" />
     <Compile Include="Module\Message\TCP\Session.cs" />
     <Compile Include="Module\Message\TCP\Service.cs" />
-    <Compile Include="Module\Model\Account.cs" />
     <Compile Include="Module\Util\BufferManager.cs" />
     <Compile Include="Module\Util\MessageHelper.cs" />
     <Compile Include="Module\Util\SocketAsyncEventArgsPool.cs" />
@@ -75,6 +85,14 @@
       <Project>{65502814-f8e2-4680-aac7-2d532da9024e}</Project>
       <Name>Hotfix</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Module\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

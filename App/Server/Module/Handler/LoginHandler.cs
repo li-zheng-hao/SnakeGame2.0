@@ -20,10 +20,17 @@ namespace Game
         public void Handle(Session session, Message ms)
         {
             Console.WriteLine("Loginhandler");
+            var data=ms.Value as Account;
+            AccountDAO acc=new AccountDAO();
+            var res=acc.VerifyUser(DB.Instance.GetConnection(), data.username, data.password);
+            Message resms=new Message(RequestCode.Login,res);
+            Response(session,resms);
         }
 
         public void Response(Session session, Message ms)
         {
+            var datas = MessageHelper.Serialize(ms);
+            session.SendAsync(datas);
         }
     }
 }

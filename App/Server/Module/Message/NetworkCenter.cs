@@ -48,6 +48,7 @@ namespace Game
         {
             //todo 处理消息的派发  分发给各个handler
             Console.WriteLine("这里需要将接收到的数据给分发");
+            
             IHandler handler = HandlerFactory.CreateHandler(msg.RequestCode);
             handler.Handle(session,msg);
         }
