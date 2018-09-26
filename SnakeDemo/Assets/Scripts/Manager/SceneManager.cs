@@ -16,9 +16,11 @@ namespace Game
         {
             if (loadIndex!=-1)
             {
-                
+
                 UnityEngine.SceneManagement.SceneManager.LoadScene(loadIndex);
                 loadIndex = -1;
+
+
             }
         }
 

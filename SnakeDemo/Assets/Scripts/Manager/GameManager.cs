@@ -48,17 +48,24 @@ namespace Game
         public CharacterManager chaManager;
 
         public SceneManager scManager;
+
+        public PlayerManager plManager;
+
+//        public MTFunctionManager mtfManager;
         private void Start()
         {
             netManager=new NetManager();
             uiManager=new UIManager();
             chaManager=new CharacterManager();
             scManager=new SceneManager();
+            plManager = new PlayerManager();
+//            mtfManager=new MTFunctionManager();
 
             netManager.OnInit();
             uiManager.OnInit();
             chaManager.OnInit();
             scManager.OnInit();
+            plManager?.OnInit();
         }
 
         private void Update()
@@ -67,6 +74,7 @@ namespace Game
             uiManager.Update();
             chaManager.Update();
             scManager.Update();
+            plManager?.Update();
         }
 
         private void OnDestroy()
@@ -75,6 +83,7 @@ namespace Game
             uiManager.OnDestroy();
             chaManager.OnDestroy();
             scManager.OnDestroy();
+            plManager?.OnDestroy();
         }
     }
 }

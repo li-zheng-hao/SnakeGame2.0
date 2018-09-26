@@ -29,7 +29,7 @@ namespace Game
             {
                 GameManager.Instance.chaManager.UpdatePlayers(infos);
             }
-
+       
             GameManager.Instance.scManager.LoadScene(2);
            
 

@@ -69,6 +69,7 @@
     <Compile Include="Module\Handler\HandlerFactory.cs" />
     <Compile Include="Module\Handler\IHandler.cs" />
     <Compile Include="Module\Handler\LoginHandler.cs" />
+    <Compile Include="Module\Handler\UpdatePosHandler.cs" />
     <Compile Include="Module\Message\Message.cs" />
     <Compile Include="Module\Message\NetworkCenter.cs" />
     <Compile Include="Module\Message\TCP\Session.cs" />

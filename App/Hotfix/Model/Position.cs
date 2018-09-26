@@ -15,7 +15,7 @@ namespace Game
     public class Position
     {
         [ProtoMember(1)]
-        public float pox;
+        public float posx;
         [ProtoMember(2)]
         public float posy;
     }

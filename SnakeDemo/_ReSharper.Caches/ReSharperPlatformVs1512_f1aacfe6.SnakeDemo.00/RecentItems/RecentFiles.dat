@@ -8,47 +8,59 @@
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/f:MessageHelper.cs" caret="499" fromTop="9" />
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:UIManager.cs" caret="3322" fromTop="29" />
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:LoginPanel.cs" caret="1520" fromTop="20" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="717" fromTop="12" />
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:StartPanel.cs" caret="282" fromTop="12" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="173" fromTop="6" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/d:TCP/f:Session.cs" caret="4390" fromTop="15" />
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:RoomRT.cs" caret="427" fromTop="19" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:NetManager.cs" caret="1003" fromTop="21" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1156" fromTop="25" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="0" fromTop="0" />
     <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:AccountRT.cs" caret="120" fromTop="6" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="1262" fromTop="25" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:EnterRoomRequest.cs" caret="869" fromTop="28" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:SnakeController.cs" caret="183" fromTop="7" />
+    <File id="51053228-A589-80BA-1397-4507F7B36207/d:Assets/d:EasyTouch/d:Plugins/d:Editor/f:GUIEasyTouchInspector.cs" caret="296" fromTop="14" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:FoodPoolManager.cs" caret="830" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:CollisionDetect.cs" caret="580" fromTop="19" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="590" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:EasyTouch/d:Plugins/f:EasyJoystick.cs" caret="19038" fromTop="23" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1082" fromTop="25" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:MTFunctionManager.cs" caret="648" fromTop="12" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="565" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="824" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:NetManager.cs" caret="1235" fromTop="25" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Net/d:TCP/f:Session.cs" caret="9024" fromTop="27" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:EnterRoomRequest.cs" caret="669" fromTop="26" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:PlayerManager.cs" caret="1379" fromTop="1" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1143" fromTop="0" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:UpdatePosRequest.cs" caret="945" fromTop="16" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:CameraFollow.cs" caret="335" fromTop="11" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:EasyTouch/d:Plugins/f:EasyTouch.cs" caret="20160" fromTop="5" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:SnakeController.cs" caret="3042" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7523" fromTop="23" />
   </RecentFiles>
   <RecentEdits>
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:LoginPanel.cs" caret="1557" fromTop="21" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="413" fromTop="21" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="657" fromTop="26" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="241" fromTop="7" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1230" fromTop="17" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1446" fromTop="24" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1580" fromTop="28" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1769" fromTop="36" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:GameManager.cs" caret="1973" fromTop="29" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:LoginRequest.cs" caret="1067" fromTop="19" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="577" fromTop="20" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:SceneManager.cs" caret="821" fromTop="35" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1195" fromTop="17" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="864" fromTop="29" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:EnterRoomRequest.cs" caret="432" fromTop="17" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:EnterRoomRequest.cs" caret="589" fromTop="21" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:RoomRT.cs" caret="427" fromTop="19" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:RoomRT.cs" caret="382" fromTop="15" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:AccountRT.cs" caret="354" fromTop="15" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Model/f:AccountRT.cs" caret="138" fromTop="8" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="649" fromTop="27" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="481" fromTop="20" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:NetManager.cs" caret="993" fromTop="22" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:NetManager.cs" caret="1041" fromTop="22" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:UI/f:AccountPanel.cs" caret="1041" fromTop="20" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="1054" fromTop="33" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Manager/f:CharacterManager.cs" caret="1226" fromTop="38" />
-    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Request/f:EnterRoomRequest.cs" caret="925" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="38" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9453" fromTop="35" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9453" fromTop="36" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9453" fromTop="10" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="36" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="41" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="3103" fromTop="25" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="3103" fromTop="27" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="22" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="29" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="33" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="19" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="23" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9442" fromTop="33" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="2842" fromTop="8" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7977" fromTop="18" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9652" fromTop="21" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="10326" fromTop="39" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="6788" fromTop="17" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7316" fromTop="41" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7715" fromTop="35" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="6259" fromTop="17" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="6497" fromTop="24" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7631" fromTop="36" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="5749" fromTop="7" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="6118" fromTop="18" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="10125" fromTop="25" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="9892" fromTop="19" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7941" fromTop="36" />
+    <File id="1766D1BA-92FE-E897-5721-E16B487F60B9/d:Assets/d:Scripts/d:Game/f:Snake.cs" caret="7199" fromTop="31" />
   </RecentEdits>
 </RecentFiles>

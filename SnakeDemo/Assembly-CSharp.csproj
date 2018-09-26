@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_1;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_1;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -61,11 +61,62 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Example for EasyButton\Bullet.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Example for EasyButton\ETPlayer.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example_FirstPerson_DirectMode\GUIFirstDirect.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\Example-thirdPerson_DirectEventMode\JoystickEvent.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyJoystick\ExitButton.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\FreeCam.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-FreeCam\GuiCam.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\GuiPhoto.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-ManipulationImage\Photo.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\GuiLayer.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-MultiLayer\TouchLayer.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\GuiMultiFinger.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ObjectTouch.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\ScreenTouch.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-Multiplefingers\SlowRotate.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\DoubleTap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Drag.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\GuiOneFinger.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\LongTap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Swipe.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\Tap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-OneFinger\TouchStart.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-StartMenu\GuiStartMenu.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\GuiTwoFinger.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Pinch.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\Twist.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDoubleTap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoDrag.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoLongTap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoSwipe.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTap.cs" />
+    <Compile Include="Assets\EasyTouch\Example\C# Example\Examples for EasyTouch\Example-TwoFinger\TwoTouchStart.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyButtonTemplate.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyJoystickTemplate.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\_C#-Event-Template\C_EasyTouchTemplate.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyButton.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyJoystick.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\ECamera.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\Finger.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\Gesture.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\MonoSingleton.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\MovingJoystick.cs" />
+    <Compile Include="Assets\EasyTouch\Plugins\VirtualScreen.cs" />
+    <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Game\CollisionDetect.cs" />
+    <Compile Include="Assets\Scripts\Game\FoodPoolManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Snake.cs" />
     <Compile Include="Assets\Scripts\Game\SnakeController.cs" />
     <Compile Include="Assets\Scripts\Manager\BaseManager.cs" />
     <Compile Include="Assets\Scripts\Manager\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\MTFunctionManager.cs" />
     <Compile Include="Assets\Scripts\Manager\NetManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Manager\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\Model\AccountRT.cs" />
@@ -75,6 +126,7 @@
     <Compile Include="Assets\Scripts\Request\BaseRequest.cs" />
     <Compile Include="Assets\Scripts\Request\EnterRoomRequest.cs" />
     <Compile Include="Assets\Scripts\Request\LoginRequest.cs" />
+    <Compile Include="Assets\Scripts\Request\UpdatePosRequest.cs" />
     <Compile Include="Assets\Scripts\UI\AccountPanel.cs" />
     <Compile Include="Assets\Scripts\UI\BasePanel.cs" />
     <Compile Include="Assets\Scripts\UI\LoginPanel.cs" />
@@ -83,6 +135,7 @@
     <Compile Include="Assets\Scripts\UI\StartPanel.cs" />
     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\EasyTouch\Readme_first.txt" />
     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />

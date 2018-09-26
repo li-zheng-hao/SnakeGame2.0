@@ -18,8 +18,12 @@ namespace Game
     {
         [ProtoMember(1)]
         public string username;
-        [ProtoMember(2,DynamicType = true)]
+        [ProtoMember(2)]
         public List<Position> pos;
 
+        public PlayerInfo()
+        {
+            pos=new List<Position>();
+        }
     }
 }

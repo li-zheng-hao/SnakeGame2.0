@@ -14,11 +14,11 @@ namespace Game
 {
     public class Room
     {
-        private List<Player> users;
+        private Dictionary<string,Player> users;
 
         public Room()
         {
-            users=new List<Player>();
+            users=new Dictionary<string, Player>();
             
         }
 
@@ -28,12 +28,28 @@ namespace Game
             foreach (var u in users)
             {
                 PlayerInfo player=new PlayerInfo();
-                player.username = u.username;
-                player.pos = u.pos;
+                player.username = u.Key;
+                player.pos = u.Value.pos;
                 pl.Add(player);
             }
 
             return pl;
+        }
+
+        public void UpdatePlayer(PlayerInfo pl,Session session)
+        {
+            if (users.ContainsKey(pl.username))
+            {
+                users[pl.username].pos = pl.pos;
+            }
+            else
+            {
+                Player p=new Player();
+                p.username = pl.username;
+                p.pos = pl.pos;
+                p.session = session;
+                users.Add(pl.username,p);
+            }
         }
     }
 }

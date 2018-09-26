@@ -37,6 +37,10 @@ namespace Game
                     EnterRoomRequest enter=new EnterRoomRequest();
                     enter.Response(msg);
                     break;
+                case RequestCode.UpdatePos:
+                    UpdatePosRequest up=new UpdatePosRequest();
+                    up.Response(msg);
+                    break;
             }
         }
 
