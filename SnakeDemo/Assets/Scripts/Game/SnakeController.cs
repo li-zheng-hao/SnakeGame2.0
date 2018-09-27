@@ -59,6 +59,12 @@ public class SnakeController : MonoBehaviour
     private Text text;
     private Text text2;
 
+    [Header("Ship Movement Properties")]
+    public bool canSendNetworkMovement;
+    public float networkSendRate = 5;
+    public float timeBetweenMovementStart;
+    public float timeBetweenMovementEnd;
+
     void Start()
     {
         //Debug.Log("游戏开始了，蛇头的名字是" + "skin" + StaticData.Instance.usingSkinName + "head");
@@ -68,8 +74,7 @@ public class SnakeController : MonoBehaviour
         text2= gj2.GetComponent<Text>();
         
         InitHead();
-        InitBody();
-        StartCoroutine("UpdatePos");
+        //InitBody();
 
     }
 
@@ -80,54 +85,49 @@ public class SnakeController : MonoBehaviour
         text2.text = "击杀:  " + @"<color=blue>" + killEnemyNum.ToString() + @"</color>";
         UpdateRotationAndMove();
 
+        if(!canSendNetworkMovement)
+        {
+            canSendNetworkMovement = true;
+            StartCoroutine("UpdatePos");
+        }
 
-//        UpdatePosRequest re = new UpdatePosRequest();
-//        PlayerInfo info = new PlayerInfo();
-//        info.username = GameManager.Instance.chaManager.GetLocalPlayerName();
-//        Position headpos = new Position();
-//        headpos.posx = snakeHead.transform.position.x;
-//        headpos.posy = snakeHead.transform.position.y;
-//
-//
-//        info.pos.Add(headpos);
-//        foreach (var body in _bodys)
-//        {
-//            Position p = new Position();
-//            p.posx = body.transform.position.x;
-//            p.posy = body.transform.position.y;
-//            info.pos.Add(p);
-//        }
-//
-//        re.SendRequest(RequestCode.UpdatePos, info);
     }
 
     IEnumerator UpdatePos()
     {
+        timeBetweenMovementStart = Time.time;
+        yield return new WaitForSeconds(1/networkSendRate);
+        SendMoveRequest();
+
+
+    }
+    public void SendMoveRequest()
+    {
+        timeBetweenMovementEnd = Time.time;
+
         UpdatePosRequest re = new UpdatePosRequest();
-        
-      
-        while (true)
+
+        PlayerInfo info = new PlayerInfo();
+        info.username = GameManager.Instance.chaManager.GetLocalPlayerName();
+        Position headpos = new Position();
+        headpos.posx = snakeHead.transform.position.x;
+        headpos.posy = snakeHead.transform.position.y;
+        info.pos.Add(headpos);
+        foreach (var body in _bodys)
         {
-            PlayerInfo info = new PlayerInfo();
-            info.username = GameManager.Instance.chaManager.GetLocalPlayerName();
-            Position headpos= new Position();
-            headpos.posx = snakeHead.transform.position.x;
-            headpos.posy = snakeHead.transform.position.y;
-
-
-            info.pos.Add(headpos);
-            foreach (var body in _bodys)
-            {
-                Position p = new Position();
-                p.posx = body.transform.position.x;
-                p.posy = body.transform.position.y;
-                info.pos.Add(p);
-            }
- 
-            re.SendRequest(RequestCode.UpdatePos,info);
-            yield return new WaitForSeconds(0.1f);
+            Position p = new Position();
+            p.posx = body.transform.position.x;
+            p.posy = body.transform.position.y;
+            info.pos.Add(p);
         }
-      
+        info.time = (timeBetweenMovementEnd - timeBetweenMovementStart);
+
+        Debug.LogWarning(info.time+"发出去的时间");
+        re.SendRequest(RequestCode.UpdatePos, info);
+
+
+        canSendNetworkMovement = false;
+
     }
     /// <summary>
     /// 更新头部的旋转角度
@@ -143,8 +143,8 @@ public class SnakeController : MonoBehaviour
             oldPositionList.Insert(0, transform.position);
             if (joystickAxis == Vector3.zero)
             {
-//                Vector3 vec = direction * Vector3.up;
-//                transform.position += vec.normalized * speed * Time.deltaTime;
+                //Vector3 vec = direction * Vector3.up;
+                //transform.position += vec.normalized * speed * Time.deltaTime;
 
             }
             else
@@ -258,7 +258,7 @@ public class SnakeController : MonoBehaviour
     /// <param name="collision"></param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.LogWarning("检测到食物");
+
         //撞到墙，游戏结束
         if (collision.tag == "Border")
         {

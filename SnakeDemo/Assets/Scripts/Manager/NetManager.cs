@@ -19,6 +19,7 @@ namespace Game
 
         public override void OnInit()
         {
+//            session = new Session("47.106.238.197", 55555);
             session = new Session("127.0.0.1", 55555);
             session.Connect();
             session.ReadCallback += OnRead;

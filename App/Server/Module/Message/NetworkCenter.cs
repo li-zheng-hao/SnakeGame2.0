@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 
@@ -31,10 +32,8 @@ namespace Game
 
         public NetworkCenter()
         {
-            server=new Service("127.0.0.1",55555);
+            server=new Service("47.106.238.197",55555);
             server.OnAccept += OnAccept;
-            
-            
         }
 
         /// <summary>
@@ -63,15 +62,17 @@ namespace Game
             handler.Handle(session,msg);
         }
 
+
         public void BroadCastMsg(Message msg)
         {
             var datas = MessageHelper.Serialize(msg);
-
             foreach (var client in roomList)
-            {
+            {  
                 client.Send(datas);
             }
+
         }
-        
+
+
     }
 }

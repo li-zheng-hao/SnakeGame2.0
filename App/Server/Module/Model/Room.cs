@@ -47,6 +47,7 @@ namespace Game
                 Player p=new Player();
                 p.username = pl.username;
                 p.pos = pl.pos;
+                
                 p.session = session;
                 users.Add(pl.username,p);
             }

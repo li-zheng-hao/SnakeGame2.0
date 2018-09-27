@@ -430,7 +430,6 @@ E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\System.Xml.XPath.XDocument
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\Unity.Locator.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\Unity.TextMeshPro.dll
-E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\UnityEditor.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\UnityEditor.StandardEvents.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
@@ -600,3 +599,4 @@ E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\obj\Debug\Assembly-CSharp.csproj.CoreComp
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\obj\Debug\Assembly-CSharp.dll
 E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\obj\Debug\Assembly-CSharp.pdb
+E:\SnakeGame2.0\SnakeGame2.0\SnakeDemo\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll

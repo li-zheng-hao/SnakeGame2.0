@@ -28,20 +28,25 @@ namespace Game
 //            Console.WriteLine();
 //            Console.WriteLine("_________________________________");
             NetworkCenter.Instance.room.UpdatePlayer(info,session);
-            Response(session,null);
+            if (NetworkCenter.Instance.roomList.Contains(session)==false)
+            {
+                NetworkCenter.Instance.roomList.Add(session);
+            }
+            NetworkCenter.Instance.BroadCastMsg(ms);
+//            Response(session,ms);
         }
 
         public void Response(Session session, Message ms)
         {
-            Players players=new Players();
-            players.playerInfos=new List<PlayerInfo>();
-            
-            players.playerInfos = NetworkCenter.Instance.room.GetPlayer();
-            Console.WriteLine("____________当前服务器存在的玩家数量____"+players.playerInfos.Count);
-            Message mss=new Message(RequestCode.UpdatePos,players);
-
-            var datas=MessageHelper.Serialize(mss);
-            session.Send(datas);
+//            Players players = new Players();
+//            players.playerInfos = new List<PlayerInfo>();
+//
+//            players.playerInfos = NetworkCenter.Instance.room.GetPlayer();
+//
+//            Message mss = new Message(RequestCode.UpdatePos, players);
+//
+//            var datas = MessageHelper.Serialize(mss);
+//            session.Send(datas);
         }
     }
 }

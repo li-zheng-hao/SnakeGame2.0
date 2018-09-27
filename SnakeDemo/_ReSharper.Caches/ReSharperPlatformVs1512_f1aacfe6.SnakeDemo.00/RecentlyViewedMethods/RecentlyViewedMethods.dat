@@ -1,16 +1,31 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.MoveToPos%28System.Collections.Generic.List%7BUnityEngine.Vector3%7D%2CSystem.Collections.Generic.List%7BUnityEngine.Vector3%7D%29" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.Update" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.Update" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.Snake.closeEnough" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.Snake.lerpRate" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/F%3AGame.Snake.lerpRate" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.Init%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.Init%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.PlayerManager.UpdatePlayer%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.UpdatePosRequest.Response%28Game.Message%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.UpdatePosRequest.SendRequest%28Game.RequestCode%2CSystem.Object%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.PlayerManager.UpdatePlayer%28Game.PlayerInfo%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.NetManager.OnInit" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ASnakeController.InitBody" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ASnakeController.InitHead" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ASnakeController.UpdateRotationAndMove" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.NetManager.Update" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ASnakeController.UpdatePos" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ASnakeController.UpdateRotationAndMove" />
     <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.PlayerManager.UpdatePlayer%28Game.PlayerInfo%29" />
     <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AEasyTouch.OnGUI" />
     <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AEasyTouch.Update" />
     <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.UpdatePos%28Game.PlayerInfo%29" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.Update" />
-    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.MoveToPos%28System.Collections.Generic.List%7BUnityEngine.Vector3%7D%2CSystem.Collections.Generic.List%7BUnityEngine.Vector3%7D%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3ACameraFollow.LateUpdate" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AEasyTouch.OnDrawGizmos" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.Snake.InitHead%28UnityEngine.Vector2%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.LoginRequest.SendRequest%28Game.RequestCode%2CSystem.Object%29" />
+    <RecentMethod id="1766d1ba-92fe-e897-5721-e16b487f60b9%28Assembly-CSharp%29-13%5B.NETFramework%2CVersion%3Dv4.7.1%5D/M%3AGame.NetManager.OnRead%28Game.Session%2CGame.Message%29" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

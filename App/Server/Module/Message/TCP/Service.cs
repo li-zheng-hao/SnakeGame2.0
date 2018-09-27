@@ -74,7 +74,7 @@ namespace Game
         #region 构造
         public Service(string ipadd, int port)
         {
-            ipEndPoint = new IPEndPoint(IPAddress.Parse(ipadd), port);
+            ipEndPoint = new IPEndPoint(IPAddress.Any, port);
             serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             bufferManager = new BufferManager(bufferSize * maxConnection * opsToPreAlloc, bufferSize);
 

@@ -247,7 +247,11 @@ namespace Game
 
         public void Send(byte[] data)
         {
-            client.Send(data);
+            if (client.Connected)
+            {
+                client.Send(data);
+            }
+           
         }
         #endregion
 

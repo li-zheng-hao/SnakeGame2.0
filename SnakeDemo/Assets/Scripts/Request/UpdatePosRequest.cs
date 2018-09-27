@@ -25,10 +25,11 @@ namespace Game
         public override void Response(Message msg)
         {
             //这里收到的是所有在房间内的用户的信息
-            var info = msg.Value as Players;
+            var info = msg.Value as PlayerInfo;
             //在这里根据服务器发来的信息更新本地的玩家信息
-            GameManager.Instance.plManager.UpdateFunc += GameManager.Instance.plManager.UpdatePlayers;
             GameManager.Instance.plManager.temp = info;
+            GameManager.Instance.plManager.UpdateFunc += GameManager.Instance.plManager.UpdatePlayer;
+            
         }
     }
 }

@@ -109,6 +109,7 @@
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Game\CollisionDetect.cs" />
     <Compile Include="Assets\Scripts\Game\FoodPoolManager.cs" />
+    <Compile Include="Assets\Scripts\Game\OtherPlayer.cs" />
     <Compile Include="Assets\Scripts\Game\Snake.cs" />
     <Compile Include="Assets\Scripts\Game\SnakeController.cs" />
     <Compile Include="Assets\Scripts\Manager\BaseManager.cs" />

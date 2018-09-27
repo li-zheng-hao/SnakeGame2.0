@@ -21,6 +21,9 @@ namespace Game
         [ProtoMember(2)]
         public List<Position> pos;
 
+        [ProtoMember(3)]
+        public float time;
+
         public PlayerInfo()
         {
             pos=new List<Position>();
