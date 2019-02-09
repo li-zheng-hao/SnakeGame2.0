@@ -21,3 +21,12 @@ E:\SnakeGame2.0\SnakeGame2.0\App\App\obj\Debug\App.pdb
 E:\SnakeGame2.0\SnakeGame2.0\App\App\bin\Debug\MySql.Data.dll
 E:\SnakeGame2.0\SnakeGame2.0\App\App\bin\Debug\Google.Protobuf.dll
 E:\SnakeGame2.0\SnakeGame2.0\App\App\bin\Debug\MySql.Data.xml
+E:\SnakeGame2.0\App\App\bin\Debug\Hotfix.dll
+E:\SnakeGame2.0\App\App\bin\Debug\Server.dll
+E:\SnakeGame2.0\App\App\bin\Debug\protobuf-net.dll
+E:\SnakeGame2.0\App\App\bin\Debug\MySql.Data.dll
+E:\SnakeGame2.0\App\App\bin\Debug\Google.Protobuf.dll
+E:\SnakeGame2.0\App\App\bin\Debug\Hotfix.pdb
+E:\SnakeGame2.0\App\App\bin\Debug\Server.pdb
+E:\SnakeGame2.0\App\App\bin\Debug\MySql.Data.xml
+E:\SnakeGame2.0\App\App\obj\Debug\App.csproj.CopyComplete

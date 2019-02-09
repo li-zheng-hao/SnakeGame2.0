@@ -29,7 +29,7 @@ public class SnakeController : MonoBehaviour
     [Tooltip("蛇身体")]
     public Sprite snakeBodys;
     [Tooltip("初始身体的数量")]
-    public int initBodyNum = 3;
+    public int initBodyNum = 5;
 
     [Tooltip("蛇头对象")]
     public GameObject snakeHead;
@@ -74,7 +74,7 @@ public class SnakeController : MonoBehaviour
         text2= gj2.GetComponent<Text>();
         
         InitHead();
-        //InitBody();
+        InitBody();
 
     }
 
@@ -202,10 +202,6 @@ public class SnakeController : MonoBehaviour
             _bodys.Add(go);
 
         }
-        //for (int i = 0; i < _bodys.Count; i++)
-        //{
-        //    Debug.Log(oldPositionList[(i + 1) * positionLength-1]);
-        //}
 
     }
     /// <summary>

@@ -27,7 +27,7 @@ namespace Game
 //            Response(session,resms);
             Response(session,ms);
         }
-
+        
         public void Response(Session session, Message ms)
         {
             var datas = MessageHelper.Serialize(ms);

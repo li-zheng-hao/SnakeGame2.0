@@ -17,7 +17,6 @@ namespace Game
     {
         private List<PlayerInfo> players;
         private AccountRT localPlayer;
-        private PlayerInfo localInfo;
 
         public override void Update()
         {

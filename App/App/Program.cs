@@ -15,7 +15,7 @@ namespace App
             NetworkCenter.Instance.server.Start();
             while (true)
             {
-                
+
             }
         }
     }

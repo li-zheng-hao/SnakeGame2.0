@@ -985,11 +985,11 @@ DisconnectNetworkHost can only be called by the group owner on the relay server.
     </member>
     <member name="M:UnityEngine.Networking.NetworkTransport.GetAssetId(UnityEngine.GameObject)">
       <summary>
-        <para>The Unity Multiplayer spawning system uses assetIds to identify what remote objects to spawn. This function allows you to get the assetId for the prefab associated with an object.</para>
+        <para>The Unity Multiplayer spawning system uses assetIds to identify what remote objects to spawn. This function allows you to get the assetId for the Prefab associated with an object.</para>
       </summary>
       <param name="go">Target GameObject to get assetId for.</param>
       <returns>
-        <para>The assetId of the game object's prefab.</para>
+        <para>The assetId of the game object's Prefab.</para>
       </returns>
     </member>
     <member name="M:UnityEngine.Networking.NetworkTransport.GetBroadcastConnectionInfo(System.Int32,System.String&amp;,System.Int32&amp;,System.Byte&amp;)">
